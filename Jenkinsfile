@@ -2,7 +2,7 @@ pipeline {
     agent { label "mynode" }
 
     environment {
-        S3_BUCKET = 'my-static-website-bucket'
+        S3_BUCKET = 'static-wesite-hosting-my-cicd'
     }
 
     stages {
