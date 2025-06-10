@@ -1,5 +1,5 @@
 pipeline {
-    agent { label “mynode” }
+    agent { label "mynode" }
 
     environment {
         S3_BUCKET = 'static-wesite-hosting-my-cicd'
